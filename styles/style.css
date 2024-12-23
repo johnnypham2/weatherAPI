@@ -1,0 +1,126 @@
+@font-face {
+    font-family: inter-reg;
+    src: url(../assets/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter-med;
+    src: url(../assets/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: inter-semi;
+    src: url(../assets/Inter-SemiBold.ttf);
+}
+
+.location,
+.currentTemp,
+.forecast-style,
+.days,
+.daysTemp {
+    font-family: inter-med;
+}
+
+.present-date,
+.high,
+.low {
+    font-family: inter-reg;
+}
+
+.favorites,
+.degree {
+    font-family: inter-semi;
+}
+
+.bgImg {
+    background: url('../assets/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.blueBg {
+    background-color: #238CC6;
+}
+
+.body-margin {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.present-styles {
+    margin-top: 150px;
+    border-radius: 25px;
+}
+
+.location {
+    font-size: 44px;
+    font-weight: 500;
+    color: #EAE830;
+}
+
+.location-icon {
+    font-size: 40px !important;
+    color: white;
+}
+
+.present-date {
+    font-size: 26px;
+    color: white;
+}
+
+.inputfield {
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+}
+
+.favorites {
+    font-size: 18px;
+    font-weight: 600;
+    color: #D2D2D2;
+}
+
+.high, .low {
+    font-size: 16px;
+    color: white;
+}
+
+.currentTemp {
+    font-size: 112px;
+    color: white;
+}
+
+.fahrenheit {
+    font-size: 24px;
+}
+
+.forecast-style {
+    background-color: rgba(35, 120, 198, .52);
+    border-radius: 25px;
+    color: white;
+    padding-top: 20px;
+}
+
+.days {
+    font-size: 24px;
+}
+
+.daysTemp {
+  font-size: 70px;  
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  letter-spacing: 6px;
+}
+
+.degree {
+    font-size: 15px;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.cities{
+    color: white;
+    font-size: 15px;
+}
